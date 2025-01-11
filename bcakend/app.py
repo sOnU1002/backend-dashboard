@@ -3,7 +3,7 @@ import pandas as pd
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "http://localhost:3000/"}})
+CORS(app, resources={r"/*": {"origins": "https://frontend-dash-sandy.vercel.app/"}})
 
 # Load data
 import os
